@@ -30,6 +30,8 @@ export class DashboardComponent {
  
   ];
   ngOnInit(){
+
+    // call Getproducts function from service
     this.dashboardService.getPorducts().subscribe(data=>{
    
       this.products = data

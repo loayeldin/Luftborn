@@ -11,7 +11,7 @@ export class DashboardService {
   constructor(private http:HttpClient) { }
 
 
-  getPorducts():Observable<products[]>
+  getPorducts():Observable<products[]> // Get limited products
   {
     return this.http.get<products[]>('https://fakestoreapi.com/products?limit=10')
   }
