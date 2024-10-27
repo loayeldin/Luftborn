@@ -219,16 +219,16 @@
                     display: flex;
                     flex-direction: column;
                     row-gap: 5px;
-                 
+                    
                     min-height: 93px;
 
-                    .product-price{
-              
-     
-                        font-size: 39px;
+                        .product-price{
+                
+        
+                            font-size: 39px;
+                        
+                            font-weight: 300;
                     
-                        font-weight: 300;
-                   
                         }
         
                         .product-info{
@@ -261,6 +261,7 @@
                              
                             }
                         }
+                        
                 }
             }
         }
@@ -416,23 +417,24 @@
                             display: flex;
                             flex-direction: row !important; 
                             align-items: center;
-                            justify-content: space-between;
+                            justify-content: space-between !important;
                             column-gap: 16px !important;
+                          
                             .product-price{
                                 
                           
-                               
+                                
                                 height: 100%;
                                 }
                 
-                                .product-info{
+                            .product-info{
                                    
                                     .title{
               
                                         font-size: 10px !important;   
                                         line-height: 157.5%;
-
-                                                             
+                                        text-align: right;
+                                   
                                         /*limit the number of rows that will be show */    
                                         display: -webkit-box;          
                                         -webkit-line-clamp: 3 !important;          
@@ -446,7 +448,7 @@
                                       
                                      
                                     }
-                                }
+                            }
                         }
             }
 
