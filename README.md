@@ -1,3 +1,9 @@
+
+# Navbar Design (Task 2)
+
+[View the Figma Design](https://www.figma.com/design/XWqOSYpqAdPypXIHgEJx7i/Luftborn?node-id=0-1&t=4RPDrtjkuwp0wuTm-1)
+
+
 # Luftborn
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.9.
